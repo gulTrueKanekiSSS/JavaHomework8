@@ -19,7 +19,7 @@ public class Main {
 
         //task 2 (randomArray)
 
-        for (int i = 0; i <= randomArray.length; i++){
+        for (int i = 0; i < randomArray.length; i++){
             randomArray[i] = i;
             if (i == randomArray.length - 1){
                 System.out.print(randomArray[i] + "\n");
@@ -32,7 +32,7 @@ public class Main {
 
         //task2(nums)
 
-        for (int i = 0; i <= nums.length; i++){
+        for (int i = 0; i < nums.length; i++){
             if (i == nums.length - 1){
                 System.out.print(nums[i] + "\n");
                 break;
@@ -44,7 +44,7 @@ public class Main {
 
         //task2(fractionalNums)
 
-        for (int i = 0; i <= fractionalNums.length; i++){
+        for (int i = 0; i < fractionalNums.length; i++){
             if (i == fractionalNums.length - 1){
                 System.out.print(fractionalNums[i] + "\n");
                 break;
@@ -97,8 +97,5 @@ public class Main {
             }
         }
         System.out.print(Arrays.toString(nums));
-
-
-
     }
 }
